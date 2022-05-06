@@ -1,0 +1,14 @@
+Criar um script
+Vida Nova escola de Tecnologia Backend – Python
+Aluno: Priscila Vieira – Presencial
+
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ ./meuscript2.sh
+BOA NOITE, EU ME CHAMO ADRIANA!
+E QUAL E O SEU NOME?
+OLA ADRIANA, BOA NOITE!!
+EU ME CHAMO PRISCILA...
+MUITO PRAZER, SOU ESTUDANTE DE BACKEND-PYTHON.
+
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$
