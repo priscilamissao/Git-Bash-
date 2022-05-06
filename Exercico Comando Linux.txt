@@ -1,0 +1,258 @@
+Exercícios - Comandos Linux
+Vida Nova Escola de Tecnologia Backend – Python
+Aluno: Priscila Vieira – Presencial
+
+1) data e hora:
+priscila.vieria@VNEVD01 MINGW64 ~
+$ date
+Fri Mar 18 18:32:48 ESAST 2022
+
+2) caminho do diretório atual:
+priscila.vieria@VNEVD01 MINGW64 ~
+$ pwd
+/c/Users/priscila.vieria
+
+3) Listar o conteúdo do diretório atual:
+priscila.vieria@VNEVD01 MINGW64 ~
+$ ls
+&#39;3D Objects&#39;/ &#39;Local Settings&#39;@
+Searches/
+AppData/ Music/ SendTo@
+&#39;Application Data&#39;@ &#39;My Documents&#39;@
+&#39;Start Menu&#39;@
+Bananeira.txt NTUSER.DAT
+Templates@
+Citrix/ NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TM.blf
+Videos/
+Contacts/ NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-
+e41d2d101530}.TMContainer00000000000000000001.regtrans-ms WINDOWS/
+Cookies@ NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-
+e41d2d101530}.TMContainer00000000000000000002.regtrans-ms ntuser.dat.LOG1
+Desktop/ NetHood@
+ntuser.dat.LOG2
+Documents/ Pictures/ ntuser.ini
+Downloads/ PrintHood@ pasta/
+Favorites/ Recent@ texto.txt
+Links/ &#39;Saved Games&#39;/
+
+4) Limpar a tela do termina:
+priscila.vieria@VNEVD01 MINGW64 ~
+$
+
+5) Ir para a pasta Documents:
+priscila.vieria@VNEVD01 MINGW64 ~
+$ cd desktop
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+
+$ cd Priscila
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/Priscila
+$
+
+6) Listar o conteúdo do diretório atua:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ ls
+Bananeira.txt Priscila/ arquivinho desktop.ini helpdogrep.txt meuprimeiroscript.sh
+_______________________________________________________________________
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ cd Priscila
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/Priscila
+$ ls
+oi/ teste.txt/
+
+7) Criar uma pasta com o nome introducao-computacao:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ mkdir introducao-computacao
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$
+
+8) Entrar na pasta introducao-computacao:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ cd introducao-computacao
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/introducao-computacao
+$
+
+9) Criar uma pasta com o nome comandos-linux:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ mkdir comando-linux
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$
+
+10) Entrar na pasta comandos-linux:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ cd comando-linux
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/comando-linux
+$
+
+11) Limpar tela do terminal: clear
+
+12) Criar uma pasta com o nome aluno1 e aluno 2:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ mkdir aluno1 aluno2
+mkdir: cannot create directory ‘aluno’: File exists
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$
+
+13) Listar o conteúdo do diretório atual:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ ls
+Bananeira.txt aluno1/ arquivinho desktop.ini introducao-computacao/
+Priscila/ aluno2/ comando-linux/ helpdogrep.txt meuprimeiroscript.sh
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$
+
+14) Entrar na pasta aluno1:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ cd aluno1
+
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+15) ) Limpar a tela do terminal:
+
+16) Criar um arquivo com o nome aluno1.txt:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ touch aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+17) Listar o conteúdo do diretório atual:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ ls
+aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+18) Ver conteúdo do arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cat aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+19) Inserir informações no arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &quot;Vida Nova Escola Tecnologia&quot; &gt; aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+20) Ver conteúdo do arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cat aluno1.txt
+Vida Nova Escola Tecnologia
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+21) Inserir informações no arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &quot;Curso Desenvolverdor Backend Python&quot; &gt; aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+22) ) Ver conteúdo do arquivo: (Comente o que você observou ?):
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cat aluno1.txt
+Curso Desenvolverdor Backend Python
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+OBS – Quando colocamos o símbolo &gt; ele apaga o que já escrevemos anteriormente
+e substitui pela nova frase.
+
+23) Para apagar todo conteúdo do arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &gt; aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+24) Inserir informações no arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &quot;Vida Nova Escola de Tecnologia&quot; &gt;&gt; aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+25) Ver conteúdo do arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cat aluno1.txt
+Vida Nova Escola de Tecnologia
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+26) Inserir informações no arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &quot;Curso Desenvolvedor Backend - Python&quot; &gt;&gt; aluno1.txt $ echo &quot;Sou o aluno1&quot;
+&gt;&gt; aluno1.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+27) Ver conteúdo do arquivo: (Comente o que você observou ?)
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cat aluno1.txt
+Vida Nova Escola de Tecnologia
+Curso Desenvolvedor Backend - Python $ echo Sou o aluno1
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+OBS – Coloquei o comando na mesma linha, mas não entrou como comando no
+bloco de notas, entrou como texto, está certo ou fiz algo de errado, e ou, o que fiz de
+errado?
+
+28) ) Para não repetir todos os passos para o aluno2, é possível copiar o arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cp aluno1.txt aluno2.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+29) Inserir informações no arquivo:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ echo &quot;Sou o aluno2&quot; &gt;&gt; aluno2.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+30) Uma maneira de verificar se foi copiado corretamente é ver se o conteúdo dos dois
+arquivos são os mesmos. Como o conteúdo são iguais, não retornou nenhuma
+mensagem:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ diff aluno1.txt aluno2.txt
+3a4
+&gt; Sou o aluno2
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+
+31) Repare que o arquivo aluno2.txt está na pasta aluno1. Vamos transferir o arquivo
+aluno2.txt para a pasta aluno2:
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ mv aluno2.txt ../aluno2/
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno1
+$ cd
+priscila.vieria@VNEVD01 MINGW64 ~
+
+$ cd desktop
+priscila.vieria@VNEVD01 MINGW64 ~/desktop
+$ cd aluno2
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno2
+$ ls
+aluno2.txt
+priscila.vieria@VNEVD01 MINGW64 ~/desktop/aluno2
+$
+
+32) Comando para verificar o espaço em disco (HD):
+priscila.vieria@VNEVD01 MINGW64 ~
+$ df -h
+Filesystem Size Used Avail Use% Mounted on
+C:/Program Files/Git 100G 66G 35G 66% /
+priscila.vieria@VNEVD01 MINGW64 ~
+$
+
+33) Mostra o quanto de memória está sendo utilizado:
+priscila.vieria@VNEVD01 MINGW64 ~
+$ cat /proc/meminfo
+MemTotal: 50331188 kB
+MemFree: 34467924 kB
+HighTotal: 0 kB
+HighFree: 0 kB
+LowTotal: 50331188 kB
+LowFree: 34467924 kB
+SwapTotal: 3145728 kB
+SwapFree: 3145728 kB
+priscila.vieria@VNEVD01 MINGW64 ~
+$
